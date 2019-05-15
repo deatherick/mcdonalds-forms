@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Nuestra Ronald al Detalle
+En 1974  José María Cofiño Valladares adquirió la licencia de McDonald’s para Guatemala y sentó las bases de una organización ética, justa y honesta. En ese año, se abrieron las puertas del primer restaurante McDonald’s en el país, ubicado en la zona 1 de la ciudad capital.Actualmente contamos con 73 restaurantes de los cuales 57 se encuentran en la capital y 16 en el interior, 33 McCafés y 11 Centros de Postre.El trabajo en equipo y el espíritu de innovación han hecho que seamos reconocidos por McDonald’s Corporación haciéndonos acreedores de importantes reconocimiento como:Golden Arches Award: reconocimiento entregado en dos ocasiones por considerar nuestros restaurantes como Triple “A” en los estándares de Calidad, Servicio y Limpieza.Kid’s Marketing Leadership: premio otorgado en la Convención Mundial de McDonald’s a los Operadores que obtienen liderazgo en el mercadeo del segmento de niños.Social Responsibility and Brand Trust Leadership: recibido por realizar una labor social destacada.Ronald de Plata: otorgado en dos oportunidades.  La primera por la creación de las fiestas infantiles y la segunda ocasión por crear el concepto del Menú de Ronald conocido mundialmente como Cajita Feliz.International Marketing Achievement Award: entregado al Gerente que ha demostrado desempeño sobresaliente en el área de Mercadeo de McDonald’s.Además, hemos obtenido otros reconocimientos como:Marketing Hall of Fame - fuimos la primera marca internacional en obtenerlo en Guatemala por demostrar éxito sostenido en el país.Galardón Carlos Paiz Ayala por ejemplar actividad empresarial y contribución al desarrollo integral, progreso y crecimiento económico de Guatemala.Dos premios Effie de Oro en la categoría sin fines de lucro por el “McDía Feliz por los Niños”.Gerry Newman McTLC Award - Awards of Excellence, por la labor social de tantos años especialmente dirigida a niños.Reconocimiento Nova Southeastern University, Audiology Department por el generoso apoyo a los niños con problemas de audición.Reconocimiento de la Red de Cronistas de Guatemala y Tostaduría Buen Café por contribuir al consumo del café en Guatemala a través de McCafé.“Premio Trayectoria” por la notable aportación en el campo empresarial e ideas innovadoras que han trascendido a nivel mundial.“Premio Libertad”, Guatevision por la gran labor realizada en beneficio a los guatemaltecos y por ser parte esencial de una de las principales empresas del país.“Blason de Plata” máximo galardón que otorga el Consejo Nacional de Mujeres de Guatemala por la labor en el servicio social a favor de la humanidad.Reconocimiento entregado por el Instituto Nacional de Bosques (INAB) por apoyar el desarrollo del sector forestal de Guatemala a través de los múltiples programas ecológicos de McDonald’s.En Guatemala y en el mundo hemos sido pioneros de diferentes iniciativas:En el mundo:1977 - Celebraciones Infantiles1978 - Menú de Ronald1994 - Servicio a Domicilio (Express)2005 - Auto McCafeEn Guatemala:1979 - AutoMac1982 - Desayunos1994 - McDonalandia2003 - McCafé2003 - Programa de Reimagen2007 - Pedidos por Internet2010 - Redes SocialesDebido a la excelente trayectoria de McDonald’s Guatemala, en el año 2006 adquirimos la franquicia de McDonald’s Honduras y McDonald’s Nicaragua y en el 2009 la de McDonald’s El Salvador; convirtiéndonos en McDonald’s Mesoamérica. Actualmente contamos con 12 restaurantes en El Salvador y 2 McCafé, 11 restaurantes en Honduras y 6 restaurantes en Nicaragua.</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Responsabilidad Social EmpresarialPara McDonald’s la Responsabilidad Social Empresarial es muy importante ya que siguiendo el lema de nuestro fundador Ray Kroc “Tenemos la obligación de devolver a la comunidad parte de los que nos ha dado”.Desde el inicio, McDonald’s ha sido una empresa comprometida con la integridad en todo lo que realiza. Hoy en día nuestros valores siguen siendo la base de nuestras operaciones y servicios, los cuales están representados en nuestros colaboradores y a través de los distintos programas de Responsabilidad Social Empresarial con los que contamos.Programa de Integración Laboral para Personas con Distintas HabilidadesDesde hace 20 años trabajamos con jóvenes de distintas habilidades, dándoles la oportunidad de obtener un empleo con los mismos beneficios que reciben todos los colaboradores. Con este programa, la compañía apoya su crecimiento personal y profesional dentro de la sociedad guatemalteca.Actualmente contamos con 36 personas con distintas habilidades en Guatemala que laboran en restaurantes y oficinas centrales. Dentro de ellos, se encuentran jóvenes con Síndrome de Down, distrofia muscular, discapacidad mental, ceguera parcial, sordos, entre otros.Siendo McDonald’s una empresa de gente, oportunidades y visión hacia el futuro pensamos que es importante brindarle a estos jóvenes la oportunidad de integrarse a la sociedad por medio de un trabajo digno, un ambiente alegre y respetuoso y horarios flexibles que les permitan mejorar su calidad de vida. Creemos que cualquier persona con capacitación y motivación apropiada puede realizar cualquier trabajo que se proponga.Restaurantes amigables con el Medio AmbienteLos restaurantes McDonald’s nuevos y remodelados son amigables con el medio ambiente. Es por eso que McDonald’s ubicado en Vista Hermosa zona 15, Tívoli zona 9, Escuintla, Aguilar Batres y Zapote se convirtieron en restaurantes amigables con el medio ambiente, pues su remodelación incluyó elementos que colaboran con el planeta.Las sillas del área de niños son fabricadas con materiales reciclados. Se trata de las 111 Navy Chairs, llamadas así porque cada una está elaborada con 111 botellas plásticas de Coca-Cola. Este novedoso diseño pasó las pruebas del departamento de bomberos de California y Reino Unido, así como las evaluaciones estructurales para uso comercial de BIFMA (Business and Institutional Furniture Manufacturer’s Association).También contamos con sillas Emco 1951 Chairs, diseñadas por BMW Group Designwork USA. Además de contar con una línea de diseño funcional y sustentable, se compone de 80% de aluminio reciclado, por lo que obtuvieron un reconocimiento por parte de USGBC (US Green Building Council).El sistema de limpieza de los baños ahorra agua: los fluxómetros que limpian los inodoros ahorran el 60% de agua y los lavamanos proveen agua de manera automática por 10 segundos, el tiempo que se estima que una persona utiliza para lavarse las manos.Para separar las áreas del restaurante, se utilizan divisores de ambientes fabricados de material reciclado, principalmente de botellas de plástico tipo PET.Los secadores de manos Xlerator tienen un consumo mínimo de energía eléctrica y tiempo de secado. Los equipos de aire acondicionado utilizados en los restaurantes son de última generación; son libres de gases que causan calentamiento global y son altamente eficientes en el uso de la energía eléctrica. La iluminación utiliza lámparas neón tipo T-8, que ahorran el 30% de energía.Programa EcológicoDesde hace 30 años hemos trabajado en diferentes proyectos a favor del Ambiente. Dentro de éstos se encuentran: Patrullas de Limpieza, Campaña de Protección del Pinabete, Programas de Reciclaje y Reforestación en Ciudad Capital, Cobán, Escuintla, Quetzaltenango y Antigua Guatemala. Además, como parte de nuestro Programa Escolar, impartimos pláticas sobre Ecología a estudiantes de distintos colegios y escuelas del país.Todos los años con el fin de conmemorar el Día Mundial del Ambiente, el equipo del Programa Ecológico de McDonald’s junto a alumnos de primaria de la diferentes escuelas siembran árboles en diferentes áreas del país. La actividad de reforestación del año pasado consistió en la siembra de 2,500 árboles.Programa Escolar de McDonald’sEl Programa Escolar forma parte de la labor educativa que realiza McDonald’s en la comunidad desde hace 20 años y está dirigido a niños y jóvenes de escuelas y colegios. El objetivo es apoyar a alumnos y maestros en temas específicos, para hacer el aprendizaje más dinámico y divertido.Además, el Programa Escolar promueve en los niños valores que les servirán para toda su vida. Durante estos años, hemos asistido a 6,300 establecimientos en Guatemala en donde hemos transmitido nuestras pláticas a más de 1,365,000 niños y adolescentes.Las charlas de este programa se imparten durante todo el año en diferentes lugares de Guatemala y abordan temas como la amistad, importancia de no consumir drogas, costumbres y tradiciones del país, cuidado del medio ambiente, flora y fauna, nutrición y desórdenes alimenticios.Concurso Cívico¿Qué haré por Guatemala cuando sea grande?Desde hace 36 años realizamos el concurso de dibujo ¿Qué haré por Guatemala cuando sea grande? con el objetivo de inculcar en los niños el espíritu cívico y amor a la patria. Además, a través de este certamen los incentivamos a pensar en lo qué harán por Guatemala cuando crezcan para construir un mejor país.Durante estos años, hemos logrado la participación de más de 100,000 niños. Los ganadores de este año tuvieron la oportunidad de conocer al Presidente de Guatemala quien los felicitó por el civismo que demostraron por medio de sus dibujos.Donaciones a instituciones:Cada vez que abrimos las puertas de un nuevo restaurante también abrimos las puertas de nuestro corazón, realizando actividades para beneficio de la comunidad en general como:Donaciones a instituciones de beneficencia.Visitas a guarderías y áreas de Pediatría de hospitales.Aprendizaje, Desarrollo y Crecimiento ProfesionalMcDonald’s creó un pensum de desarrollo que permite llevar a un colaborador desde la posición inicial, como dependiente, hasta ser gerente, desarrollando competencias básicas y de liderazgo.Cuando un colaborador inicia a trabajar en McDonald’s se le elabora un plan de carrera. Al elevar el nivel de conocimientos de cada persona crece su autoestima, adquiere mayor estabilidad emocional y económica y mejoran sus relaciones interpersonales -familiares y laborales-. Todo esto le permite desarrollarse de una forma integral.La empresa realiza el financiamiento total de la capacitación y entrenamiento interno. Además, lleva a cabo campañas de promoción académica externa, recompensando la pasión por el estudio con becas por rendimiento académico. El objetivo de las becas escolares es estimular la superación profesional de las personas que laboran en la empresa y contribuir con el país, al generar cada vez más profesionales comprometidos con su desarrollo constante.Hemos estrechado lazos con algunos colegios y universidades con el fin de ofrecer a sus colaboradores horarios especiales para que puedan prepararse académicamente y no afectar sus responsabilidades laborales.El colegio Rotterdam ofrece Básicos por Madurez, Bachilleratos en Plan Regular y por Madurez y Secretariado Comercial. Este programa inició en 1994 y cada año se gradúan aproximadamente 100 alumnos en las diferentes carreras.La alianza con la Universidad Galileo inició en el año 2001 y a la fecha se mantiene un grupo de más de 250 alumnos, divididos en diferentes semestres de Licenciatura en Gerencia de Negocios.En el año 2006 McDonald’s Guatemala recibió el premio CentraRSE, en el eje de Actores Internos, por su programa “Aprendizaje, Desarrollo y Crecimiento Profesional”. Además, en el año 2007 AmCham (American Chamber of Commerce) otorgó a McDonald’s Guatemala el premio “Plan de Carrera” por su programa de Desarrollo para Colaboradores.VoluntariadoMcDonald´s cuenta con un Programa de Voluntariado el cual busca crear conciencia en los colaboradores y despertar su sensibilidad para ayudar a personas necesitadas. Los colaboradores donan su tiempo libre para convivir tanto con los niños y familias que se encuentran hospedadas en las Casas Ronald McDonald como en hospitales públicos para llevarles un momento de alegría.Entre las actividades que se realizan con niños se encuentran manualidades, cuenta cuentos, títeres, juegos recreativos, entre otros. Para McDonald’s es un orgullo que nuestros colaboradores realicen este tipo de actividades, pues además de ayudar al prójimo estas experiencias influyen positivamente en su crecimiento personal. Nos llena de satisfacción que donen su tiempo libre y su creatividad para compartir con los más necesitados.</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>McDonald’s Guatemala se ha caracterizado por su espíritu innovador, por lo cual ha sido reconocido a nivel mundial.  Una de sus creaciones más destacadas y reconocidas es la Cajita Feliz, cuya historia empezó a escribirse en Guatemala.Como toda gran idea, surgió por casualidad cuando la Sra. Yolanda Fernández de Cofiño, Presidente de McDonald’s Guatemala, se dio cuenta que los niños que visitaban McDonald’s necesitaban un menú con porciones adecuadas a ellos.Debido a esta necesidad, decidió ofrecer una opción pensando especialmente en los niños ya que McDonald’s siempre trata de satisfacer los gustos de sus clientes.  Es por esto que lanzo al mercado el “Menú de Ronald” que incluía hamburguesa, papas, soda pequeñas y un juguete o un dulce.Personeros de McDonald’s Corporation en una ocasión visitaron los restaurantes de Guatemala y se dieron cuenta de esta opción infantil por lo que pidieron que fuera presentada en su Convención Mundial de dueños operadores.  La Sra. Yolanda de Cofiño, pensó que esta iniciativa no causaría impacto, sin embargo, fue una de las más sobresalientes.McDonald’s Corporation realizó algunos cambios en el “Menú de Ronald” para sofisticarlo y colocarlo dentro de una caja llamativa y con detalles para los niños. También le cambio el nombre a “Cajita Feliz”, bajo el cual es conocida alrededor del mundo. Por esta invención, la Sra. Yolanda de Cofiño recibió un “Ronald de Plata”, que es el máximo reconocimiento que otorga McDonald’s Corporation.Otra de las innovaciones que han colocado a McDonald’s Guatemala como ejemplo mundial es la idea de brindar el servicio de Celebraciones de Cumpleaños. La Sra. Yolanda de Cofiño es también la creadora de esta gran idea que se expandió internacionalmente. Consiste en un programa de cumpleaños en el que los padres de familia pueden disfrutar la celebración de sus hijos y compartir con sus invitados.Es así como McDonald’s Guatemala fue el primer país en tener locales diseñados especialmente para festejos infantiles, con personal especializado, pastel, piñatas, invitaciones, actividades especiales y todo lo que hace que hoy McDonald’s sea el lugar favorito de los niños. Por esta iniciativa emprendedora la Sra. de Cofiño obtuvo otro “Ronald de Plata”.</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>McDonald’s se siente muy complacido de promover en los niños valores positivos que les servirán para toda su vida.  Desde hace 20 años ha realizado el Programa Escolar, a través del cual ha podido llegar a 6,000 establecimientos en Guatemala y más de 1,300,000 niños y adolescentes se han visto beneficiados con este programa.El Programa Escolar forma parte de la labor educativa que realiza McDonald’s en la comunidad y está dirigido a niños y jóvenes de escuelas y colegios. El objetivo es apoyar a alumnos y maestros en temas específicos, para hacer el aprendizaje más dinámico y divertido. Las pláticas son gratuitas y sin fines de lucro.Las charlas de este programa se imparten durante todo el año en diferentes lugares de Guatemala y abordan temas como la amistad, importancia de no consumir drogas, costumbres y tradiciones del país, cuidado del medio ambiente, flora y fauna, nutrición y desórdenes alimenticios. Las personas que las imparten están altamente calificadas y cuentan con material didáctico especial para cada tema.McDonald’s también fomenta el civismo y amor a la patria a través del concurso de dibujo para niños “Que haré por Guatemala cuando sea grande”, que se realiza en el mes de septiembre.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Es importante que la denuncia tenga información precisa para efectuar las investigaciones correspondientes. Por lo anterior, si usted lo desea puede consignar los siguientes datos:Nota: La información personal se utilizará exclusivamente para llevar a cabo la investigación y para brindar seguimiento a la denuncia. En ningún momento se revelará su identidad, sin su consentimiento.</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Las denuncias registradas en la Línea de Ética, se almacenarán en un servidor seguro y serán investigadas y verificadas por directivos de la organización. Toda la información registrada en la Línea de Ética, recibirá un trato confidencial e inmediato.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Es un medio de denuncia confidencial, realizado por McDonald´s Mesoamérica, para que los proveedores, clientes, personas externas y/o empleados de la corporación, informen sobre cualquier situación que incumpla la normativa legal del país o bien contravenga las buenas prácticas y ética de los negocios, así como los principios y valores que rigen en nuestra organización.</value>
+  </data>
+  <metadata name="menuLateral.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
