@@ -1,5 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace Mcdonalds
 {
@@ -8,11 +7,6 @@ namespace Mcdonalds
         public Noticias()
         {
             InitializeComponent();
-        }
-
-        private void panel1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

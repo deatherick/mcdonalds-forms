@@ -56,7 +56,7 @@
             this.lblCompania.Name = "lblCompania";
             this.lblCompania.Size = new System.Drawing.Size(126, 24);
             this.lblCompania.TabIndex = 3;
-            this.lblCompania.Text = "Contáctenos";
+            this.lblCompania.Text = "Contactenos";
             // 
             // label1
             // 
@@ -106,7 +106,7 @@
             this.button1.TabIndex = 16;
             this.button1.Text = "Enviar";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // textBox5
             // 
@@ -132,7 +132,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(239, 85);
             this.textBox4.TabIndex = 13;
-            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressHandler);
             // 
             // label5
             // 
@@ -150,7 +150,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(239, 20);
             this.textBox3.TabIndex = 11;
-            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressHandler);
             // 
             // label4
             // 
@@ -168,7 +168,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(239, 20);
             this.textBox2.TabIndex = 9;
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressHandler);
             // 
             // label3
             // 
@@ -186,7 +186,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(239, 20);
             this.textBox1.TabIndex = 7;
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressHandler);
             // 
             // label2
             // 
@@ -198,7 +198,7 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Nombre (*)";
             // 
-            // Contáctenos
+            // Contactenos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -207,8 +207,8 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblCompania);
             this.Controls.Add(this.label1);
-            this.Name = "Contáctenos";
-            this.Text = "Contáctenos";
+            this.Name = "Contactenos";
+            this.Text = "Contactenos";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

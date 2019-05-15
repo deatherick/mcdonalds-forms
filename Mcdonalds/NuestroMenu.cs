@@ -16,7 +16,7 @@ namespace Mcdonalds
             Postres,
             Ensaladas,
             Bebidas,
-            InformacionNutricional
+            InformaciónNutricional
         }
         public NuestroMenu(NuestroMenuSeleccionado menu)
         {
@@ -41,15 +41,15 @@ namespace Mcdonalds
                 case NuestroMenuSeleccionado.Bebidas:
                     MostrarBebidas();
                     break;
-                case NuestroMenuSeleccionado.InformacionNutricional:
-                    MostrarInformacionNutricional();
+                case NuestroMenuSeleccionado.InformaciónNutricional:
+                    MostrarInformaciónNutricional();
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException("menu", menu, null);
+                    throw new ArgumentOutOfRangeException(nameof(menu), menu, null);
             }
         }
 
-        void MostrarDesayuno()
+        private void MostrarDesayuno()
         {
             pictureBox1.Image = Resources.desayunos_960x290_copy_copy;
             foreach (ToolStripItem items in menuStrip1.Items)
@@ -62,7 +62,7 @@ namespace Mcdonalds
             tabControl1.SelectedTab = tabDesayuno;
         }
 
-        void MostrarAlmuerzo()
+        private void MostrarAlmuerzo()
         {
             pictureBox1.Image = Resources.almuerzo_cena;
             foreach (ToolStripItem items in menuStrip1.Items)
@@ -75,7 +75,7 @@ namespace Mcdonalds
             tabControl1.SelectedTab = tabAlmuerzo;
         }
 
-        void MostrarCajita()
+        private void MostrarCajita()
         {
             pictureBox1.Image = Resources._960x290Cajita;
             foreach (ToolStripItem items in menuStrip1.Items)
@@ -88,7 +88,7 @@ namespace Mcdonalds
             tabControl1.SelectedTab = tabCajitaFeliz;
         }
 
-        void MostrarPostres()
+        private void MostrarPostres()
         {
             pictureBox1.Image = Resources.Postres_960x290;
             foreach (ToolStripItem items in menuStrip1.Items)
@@ -101,7 +101,7 @@ namespace Mcdonalds
             tabControl1.SelectedTab = tabPostres;
         }
 
-        void MostrarEnsaladas()
+        private void MostrarEnsaladas()
         {
             pictureBox1.Image = Resources.ensaladas1;
             foreach (ToolStripItem items in menuStrip1.Items)
@@ -114,7 +114,7 @@ namespace Mcdonalds
             tabControl1.SelectedTab = tabEnsaladas;
         }
 
-        void MostrarBebidas()
+        private void MostrarBebidas()
         {
             pictureBox1.Image = Resources.header_bebidas;
             foreach (ToolStripItem items in menuStrip1.Items)
@@ -127,16 +127,16 @@ namespace Mcdonalds
             tabControl1.SelectedTab = tabBebidas;
         }
 
-        void MostrarInformacionNutricional()
+        private static void MostrarInformaciónNutricional()
         {
             Image imagen = Resources.tabla_nutricional_mc;
-            var titulo = "Información Nutricional";
-            var descripcion = "Si quieres saber los contenidos nutricionales de nuestros productos, descarga la tabla nutricional haciendo click en el botón de abajo.";
-            var productoDetalle = new Producto(imagen, titulo, descripcion);
+            const string titulo = "Información Nutricional";
+            const string descripción = "Si quieres saber los contenidos nutricionales de nuestros productos, descarga la tabla nutricional haciendo click en el botón de abajo.";
+            var productoDetalle = new Producto(imagen, titulo, descripción);
             productoDetalle.ShowDialog();
         }
 
-        private void panelProducto_Click(object sender, EventArgs e)
+        private static void PanelProducto_Click(object sender, EventArgs e)
         {
             try
             {
@@ -156,19 +156,19 @@ namespace Mcdonalds
                     panel = (Panel)sender;
                 }
              
-                System.Drawing.Image imagen = null;
+                Image imagen = null;
                 string titulo = null;
-                string descripcion = null;
+                string descripción = null;
                 foreach (var pb in panel.Controls.OfType<PictureBox>())
                 {
                     imagen = pb.Image;
-                    descripcion = pb.Tag.ToString();
+                    descripción = pb.Tag.ToString();
                 }
                 foreach (var lbl in panel.Controls.OfType<Label>())
                 {
                     titulo = lbl.Text;
                 }
-                var productoDetalle = new Producto(imagen, titulo, descripcion);
+                var productoDetalle = new Producto(imagen, titulo, descripción);
                 productoDetalle.ShowDialog();
             }
             catch (Exception exception)
@@ -186,51 +186,51 @@ namespace Mcdonalds
                 {
                     foreach (var picture in panel.Controls.OfType<PictureBox>())
                     {
-                        picture.Click += panelProducto_Click;
+                        picture.Click += PanelProducto_Click;
                     }
                     foreach (var label in panel.Controls.OfType<Label>())
                     {
-                        label.Click += panelProducto_Click;
+                        label.Click += PanelProducto_Click;
                     }
-                    panel.Click += panelProducto_Click;
+                    panel.Click += PanelProducto_Click;
                 }
             }
             
         }
 
-        private void desayunosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void DesayunosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MostrarDesayuno();
         }
 
-        private void almuerzoCenaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void AlmuerzoCenaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MostrarAlmuerzo();
         }
 
-        private void cajitaFelizToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CajitaFelizToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MostrarCajita();
         }
 
-        private void postresToolStripMenuItem_Click(object sender, EventArgs e)
+        private void PostresToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MostrarPostres();
         }
 
-        private void ensaladasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void EnsaladasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MostrarEnsaladas();
         }
 
-        private void bebidasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void BebidasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MostrarBebidas();
         }
 
-        private void informaciónNutricionalToolStripMenuItem_Click(object sender, EventArgs e)
+        private void InformaciónNutricionalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MostrarInformacionNutricional();
+            MostrarInformaciónNutricional();
         }
 
     }

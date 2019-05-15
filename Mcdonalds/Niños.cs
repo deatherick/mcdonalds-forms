@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace Mcdonalds
 {
-    public partial class Ninos : Form
+    public partial class Niños : Form
     {
         public enum MenuSeleccionado
         {
@@ -14,7 +14,7 @@ namespace Mcdonalds
             Refacciones,
             ClubRonald
         }
-        public Ninos(MenuSeleccionado menu)
+        public Niños(MenuSeleccionado menu)
         {
             InitializeComponent();
 
@@ -39,7 +39,7 @@ namespace Mcdonalds
                     SeleccionarClubRonald();
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException("menu", menu, null);
+                    throw new ArgumentOutOfRangeException(nameof(menu), menu, null);
             }
         }
 
@@ -103,32 +103,32 @@ namespace Mcdonalds
             tabControlNinos.SelectedTab = tabClubRonald;
         }
 
-        private void historiaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void HistoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarRonald();
         }
 
-        private void companiaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CompañíaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarCelebraciones();
         }
 
-        private void mcDíaFelizPorLosNiñosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void McDíaFelizPorLosNiñosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarJuegos();
         }
 
-        private void rSEToolStripMenuItem_Click(object sender, EventArgs e)
+        private void RSEToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarCalendario();
         }
 
-        private void historiaDeLaCajitaFelizToolStripMenuItem_Click(object sender, EventArgs e)
+        private void HistoriaDeLaCajitaFelizToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarRefacciones();
         }
 
-        private void programaEscolarToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ProgramaEscolarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarClubRonald();
         }

@@ -40,23 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contactenos.cs">
+    <Compile Include="Contáctenos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Contactenos.Designer.cs">
-      <DependentUpon>Contactenos.cs</DependentUpon>
+    <Compile Include="Contáctenos.Designer.cs">
+      <DependentUpon>Contáctenos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ninos.cs">
+    <Compile Include="Niños.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ninos.Designer.cs">
-      <DependentUpon>Ninos.cs</DependentUpon>
+    <Compile Include="Niños.Designer.cs">
+      <DependentUpon>Niños.cs</DependentUpon>
     </Compile>
-    <Compile Include="Compania.cs">
+    <Compile Include="Compañía.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Compania.Designer.cs">
-      <DependentUpon>Compania.cs</DependentUpon>
+    <Compile Include="Compañía.Designer.cs">
+      <DependentUpon>Compañía.cs</DependentUpon>
     </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
@@ -102,14 +102,14 @@
     <Compile Include="Ubicaciones.Designer.cs">
       <DependentUpon>Ubicaciones.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Contactenos.resx">
-      <DependentUpon>Contactenos.cs</DependentUpon>
+    <EmbeddedResource Include="Contáctenos.resx">
+      <DependentUpon>Contáctenos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ninos.resx">
-      <DependentUpon>Ninos.cs</DependentUpon>
+    <EmbeddedResource Include="Niños.resx">
+      <DependentUpon>Niños.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Compania.resx">
-      <DependentUpon>Compania.cs</DependentUpon>
+    <EmbeddedResource Include="Compañía.resx">
+      <DependentUpon>Compañía.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>

@@ -352,7 +352,7 @@
             this.celebracionesToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.celebracionesToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.celebracionesToolStripMenuItem.Text = "Celebraciones Infantiles";
-            this.celebracionesToolStripMenuItem.Click += new System.EventHandler(this.companiaToolStripMenuItem_Click);
+            this.celebracionesToolStripMenuItem.Click += new System.EventHandler(this.CompañíaToolStripMenuItem_Click);
             // 
             // ronaldMcdonaldToolStripMenuItem
             // 
@@ -361,7 +361,7 @@
             this.ronaldMcdonaldToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.ronaldMcdonaldToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.ronaldMcdonaldToolStripMenuItem.Text = "Ronald McDonald";
-            this.ronaldMcdonaldToolStripMenuItem.Click += new System.EventHandler(this.historiaToolStripMenuItem_Click);
+            this.ronaldMcdonaldToolStripMenuItem.Click += new System.EventHandler(this.HistoriaToolStripMenuItem_Click);
             // 
             // juegosToolStripMenuItem
             // 
@@ -370,7 +370,7 @@
             this.juegosToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.juegosToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.juegosToolStripMenuItem.Text = "Juegos";
-            this.juegosToolStripMenuItem.Click += new System.EventHandler(this.mcDíaFelizPorLosNiñosToolStripMenuItem_Click);
+            this.juegosToolStripMenuItem.Click += new System.EventHandler(this.McDíaFelizPorLosNiñosToolStripMenuItem_Click);
             // 
             // calendarioDecoracionToolStripMenuItem
             // 
@@ -380,7 +380,7 @@
             this.calendarioDecoracionToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.calendarioDecoracionToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.calendarioDecoracionToolStripMenuItem.Text = "Calendario Decoración";
-            this.calendarioDecoracionToolStripMenuItem.Click += new System.EventHandler(this.rSEToolStripMenuItem_Click);
+            this.calendarioDecoracionToolStripMenuItem.Click += new System.EventHandler(this.RSEToolStripMenuItem_Click);
             // 
             // refaccionesSantaToolStripMenuItem
             // 
@@ -389,7 +389,7 @@
             this.refaccionesSantaToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.refaccionesSantaToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.refaccionesSantaToolStripMenuItem.Text = "Refacciones Con Santa";
-            this.refaccionesSantaToolStripMenuItem.Click += new System.EventHandler(this.historiaDeLaCajitaFelizToolStripMenuItem_Click);
+            this.refaccionesSantaToolStripMenuItem.Click += new System.EventHandler(this.HistoriaDeLaCajitaFelizToolStripMenuItem_Click);
             // 
             // clubRonaldToolStripMenuItem
             // 
@@ -398,7 +398,7 @@
             this.clubRonaldToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.clubRonaldToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.clubRonaldToolStripMenuItem.Text = "Club de Ronald";
-            this.clubRonaldToolStripMenuItem.Click += new System.EventHandler(this.programaEscolarToolStripMenuItem_Click);
+            this.clubRonaldToolStripMenuItem.Click += new System.EventHandler(this.ProgramaEscolarToolStripMenuItem_Click);
             // 
             // toolStripContainer1
             // 
@@ -416,7 +416,7 @@
             // 
             this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.menuLateral);
             // 
-            // Niños
+            // Ninos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -425,7 +425,7 @@
             this.Controls.Add(this.toolStripContainer1);
             this.Controls.Add(this.tabControlNinos);
             this.MainMenuStrip = this.menuLateral;
-            this.Name = "Niños";
+            this.Name = "Ninos";
             this.Text = "Celebraciones";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControlNinos.ResumeLayout(false);

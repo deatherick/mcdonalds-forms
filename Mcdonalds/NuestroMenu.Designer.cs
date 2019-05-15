@@ -343,49 +343,49 @@
             this.desayunosToolStripMenuItem.Name = "desayunosToolStripMenuItem";
             this.desayunosToolStripMenuItem.Size = new System.Drawing.Size(76, 46);
             this.desayunosToolStripMenuItem.Text = "Desayunos";
-            this.desayunosToolStripMenuItem.Click += new System.EventHandler(this.desayunosToolStripMenuItem_Click);
+            this.desayunosToolStripMenuItem.Click += new System.EventHandler(this.DesayunosToolStripMenuItem_Click);
             // 
             // almuerzoCenaToolStripMenuItem
             // 
             this.almuerzoCenaToolStripMenuItem.Name = "almuerzoCenaToolStripMenuItem";
             this.almuerzoCenaToolStripMenuItem.Size = new System.Drawing.Size(108, 46);
             this.almuerzoCenaToolStripMenuItem.Text = "Almuerzo / Cena";
-            this.almuerzoCenaToolStripMenuItem.Click += new System.EventHandler(this.almuerzoCenaToolStripMenuItem_Click);
+            this.almuerzoCenaToolStripMenuItem.Click += new System.EventHandler(this.AlmuerzoCenaToolStripMenuItem_Click);
             // 
             // cajitaFelizToolStripMenuItem
             // 
             this.cajitaFelizToolStripMenuItem.Name = "cajitaFelizToolStripMenuItem";
             this.cajitaFelizToolStripMenuItem.Size = new System.Drawing.Size(75, 46);
             this.cajitaFelizToolStripMenuItem.Text = "Cajita Feliz";
-            this.cajitaFelizToolStripMenuItem.Click += new System.EventHandler(this.cajitaFelizToolStripMenuItem_Click);
+            this.cajitaFelizToolStripMenuItem.Click += new System.EventHandler(this.CajitaFelizToolStripMenuItem_Click);
             // 
             // postresToolStripMenuItem
             // 
             this.postresToolStripMenuItem.Name = "postresToolStripMenuItem";
             this.postresToolStripMenuItem.Size = new System.Drawing.Size(57, 46);
             this.postresToolStripMenuItem.Text = "Postres";
-            this.postresToolStripMenuItem.Click += new System.EventHandler(this.postresToolStripMenuItem_Click);
+            this.postresToolStripMenuItem.Click += new System.EventHandler(this.PostresToolStripMenuItem_Click);
             // 
             // ensaladasToolStripMenuItem
             // 
             this.ensaladasToolStripMenuItem.Name = "ensaladasToolStripMenuItem";
             this.ensaladasToolStripMenuItem.Size = new System.Drawing.Size(70, 46);
             this.ensaladasToolStripMenuItem.Text = "Ensaladas";
-            this.ensaladasToolStripMenuItem.Click += new System.EventHandler(this.ensaladasToolStripMenuItem_Click);
+            this.ensaladasToolStripMenuItem.Click += new System.EventHandler(this.EnsaladasToolStripMenuItem_Click);
             // 
             // bebidasToolStripMenuItem
             // 
             this.bebidasToolStripMenuItem.Name = "bebidasToolStripMenuItem";
             this.bebidasToolStripMenuItem.Size = new System.Drawing.Size(60, 46);
             this.bebidasToolStripMenuItem.Text = "Bebidas";
-            this.bebidasToolStripMenuItem.Click += new System.EventHandler(this.bebidasToolStripMenuItem_Click);
+            this.bebidasToolStripMenuItem.Click += new System.EventHandler(this.BebidasToolStripMenuItem_Click);
             // 
             // informaciónNutricionalToolStripMenuItem
             // 
             this.informaciónNutricionalToolStripMenuItem.Name = "informaciónNutricionalToolStripMenuItem";
             this.informaciónNutricionalToolStripMenuItem.Size = new System.Drawing.Size(146, 46);
             this.informaciónNutricionalToolStripMenuItem.Text = "Información Nutricional";
-            this.informaciónNutricionalToolStripMenuItem.Click += new System.EventHandler(this.informaciónNutricionalToolStripMenuItem_Click);
+            this.informaciónNutricionalToolStripMenuItem.Click += new System.EventHandler(this.InformaciónNutricionalToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 

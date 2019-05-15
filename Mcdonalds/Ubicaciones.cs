@@ -11,19 +11,19 @@ namespace Mcdonalds
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
-            GenerarImagenUbicacion();
+            GenerarImagenUbicación();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-            GenerarImagenUbicacion();
+            GenerarImagenUbicación();
         }
 
-        void GenerarImagenUbicacion()
+        private void GenerarImagenUbicación()
         {
-            var imagenes = new[]
+            var imágenes = new[]
             {
                 Resources.ubicacion1,
                 Resources.ubicacion2,
@@ -32,7 +32,7 @@ namespace Mcdonalds
                 Resources.ubicacion5
             };
             var rnd = new Random();
-            pictureBox1.Image = imagenes[rnd.Next(0, 4)];
+            pictureBox1.Image = imágenes[rnd.Next(0, 4)];
         }
 
         private void Ubicaciones_Load(object sender, EventArgs e)

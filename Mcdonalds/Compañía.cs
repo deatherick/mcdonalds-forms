@@ -3,28 +3,29 @@ using System.Windows.Forms;
 
 namespace Mcdonalds
 {
-    public partial class Compania : Form
+    public partial class Compañía : Form
     {
         public enum MenuSeleccionado
         {
-            Compania,
+            Compañía,
             Historia,
             McdiaFeliz,
+            // ReSharper disable once InconsistentNaming
             RSE,
             HistoriaCajitaFeliz,
             ProgramaEscolar,
             Trabajar,
-            Etica,
+            Ética,
             Libro
         }
-        public Compania(MenuSeleccionado menu)
+        public Compañía(MenuSeleccionado menu)
         {
             InitializeComponent();
 
             switch (menu)
             {
-                case MenuSeleccionado.Compania:
-                    SeleccionarCompania();
+                case MenuSeleccionado.Compañía:
+                    SeleccionarCompañía();
                     break;
                 case MenuSeleccionado.Historia:
                     SeleccionarHistoria();
@@ -44,18 +45,18 @@ namespace Mcdonalds
                 case MenuSeleccionado.Trabajar:
                     SeleccionarTrabajar();
                     break;
-                case MenuSeleccionado.Etica:
-                    SeleccionarEtica();
+                case MenuSeleccionado.Ética:
+                    SeleccionarÉtica();
                     break;
                 case MenuSeleccionado.Libro:
                     SeleccionarLibro();
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException("menu", menu, null);
+                    throw new ArgumentOutOfRangeException(nameof(menu), menu, null);
             }
         }
 
-        public void SeleccionarCompania()
+        public void SeleccionarCompañía()
         {           
             foreach (ToolStripItem items in menuLateral.Items)
             {
@@ -125,7 +126,7 @@ namespace Mcdonalds
             tabControlCompania.SelectedTab = tabTrabajar;
         }
 
-        public void SeleccionarEtica()
+        public void SeleccionarÉtica()
         {
             foreach (ToolStripItem items in menuLateral.Items)
             {
@@ -145,52 +146,52 @@ namespace Mcdonalds
             tabControlCompania.SelectedTab = tabLibro;
         }
 
-        private void historiaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void HistoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarHistoria();
         }
 
-        private void companiaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CompañíaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SeleccionarCompania();
+            SeleccionarCompañía();
         }
 
-        private void líneaDeÉticaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void LíneaDeÉticaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SeleccionarEtica();
+            SeleccionarÉtica();
         }
 
-        private void mcDíaFelizPorLosNiñosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void McDíaFelizPorLosNiñosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarMcDiaFeliz();
         }
 
-        private void rSEToolStripMenuItem_Click(object sender, EventArgs e)
+        private void RSEToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarRse();
         }
 
-        private void historiaDeLaCajitaFelizToolStripMenuItem_Click(object sender, EventArgs e)
+        private void HistoriaDeLaCajitaFelizToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarHistoriaCajita();
         }
 
-        private void programaEscolarToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ProgramaEscolarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarProgramaEscolar();
         }
 
-        private void trabajarEnMcDonaldsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void TrabajarEnMcDonaldsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarTrabajar();
         }
 
-        private void libro40AñosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Libro40AñosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SeleccionarLibro();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrWhiteSpace(textBox1.Text) && !string.IsNullOrWhiteSpace(textBox2.Text) &&
                 !string.IsNullOrWhiteSpace(textBox3.Text) && !string.IsNullOrWhiteSpace(textBox5.Text))
@@ -199,35 +200,11 @@ namespace Mcdonalds
             }
             else
             {
-                MessageBox.Show(@"Favor llena todos los campos", "McDonalds", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(@"Favor llena todos los campos", @"McDonalds", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void textBox5_KeyPress(object sender, KeyPressEventArgs e)
+        private void KeyPressHandler(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
             {

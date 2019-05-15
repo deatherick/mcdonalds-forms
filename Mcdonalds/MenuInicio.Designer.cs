@@ -133,7 +133,7 @@
             this.btnPuertasAbiertas.Size = new System.Drawing.Size(182, 88);
             this.btnPuertasAbiertas.TabIndex = 1;
             this.btnPuertasAbiertas.UseVisualStyleBackColor = true;
-            this.btnPuertasAbiertas.Click += new System.EventHandler(this.btnPuertasAbiertas_Click);
+            this.btnPuertasAbiertas.Click += new System.EventHandler(this.BtnPuertasAbiertas_Click);
             // 
             // btnNoticias
             // 
@@ -144,7 +144,7 @@
             this.btnNoticias.Size = new System.Drawing.Size(182, 88);
             this.btnNoticias.TabIndex = 2;
             this.btnNoticias.UseVisualStyleBackColor = true;
-            this.btnNoticias.Click += new System.EventHandler(this.btnNoticias_Click);
+            this.btnNoticias.Click += new System.EventHandler(this.BtnNoticias_Click);
             // 
             // btnCelebraciones
             // 
@@ -155,7 +155,7 @@
             this.btnCelebraciones.Size = new System.Drawing.Size(182, 88);
             this.btnCelebraciones.TabIndex = 3;
             this.btnCelebraciones.UseVisualStyleBackColor = true;
-            this.btnCelebraciones.Click += new System.EventHandler(this.btnCelebraciones_Click);
+            this.btnCelebraciones.Click += new System.EventHandler(this.BtnCelebraciones_Click);
             // 
             // MenuInicio
             // 

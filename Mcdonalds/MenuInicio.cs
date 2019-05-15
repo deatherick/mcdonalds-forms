@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using Mcdonalds.Properties;
 
 namespace Mcdonalds
 {
@@ -13,24 +12,24 @@ namespace Mcdonalds
         public delegate void EventoMostrarNoticias();
         public EventoMostrarNoticias MostrarNoticias;
 
-        public delegate void EventoMostrarNinos(Ninos.MenuSeleccionado menu);
-        public EventoMostrarNinos MostrarNinos;
+        public delegate void EventoMostrarNiños(Niños.MenuSeleccionado menu);
+        public EventoMostrarNiños MostrarNiños;
         public MenuInicio()
         {
             InitializeComponent();
         }
 
-        private void btnNoticias_Click(object sender, EventArgs e)
+        private void BtnNoticias_Click(object sender, EventArgs e)
         {
             MostrarNoticias();
         }
 
-        private void btnCelebraciones_Click(object sender, EventArgs e)
+        private void BtnCelebraciones_Click(object sender, EventArgs e)
         {
-            MostrarNinos(Ninos.MenuSeleccionado.Celebraciones);
+            MostrarNiños(Niños.MenuSeleccionado.Celebraciones);
         }
 
-        private void btnPuertasAbiertas_Click(object sender, EventArgs e)
+        private void BtnPuertasAbiertas_Click(object sender, EventArgs e)
         {
             MostrarPuertasAbiertas();
         }

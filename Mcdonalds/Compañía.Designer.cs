@@ -427,7 +427,7 @@
             this.button1.TabIndex = 16;
             this.button1.Text = "Enviar";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // textBox5
             // 
@@ -435,7 +435,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(142, 20);
             this.textBox5.TabIndex = 15;
-            this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox5_KeyPress);
+            this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressHandler);
             // 
             // label15
             // 
@@ -471,7 +471,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(142, 20);
             this.textBox3.TabIndex = 11;
-            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressHandler);
             // 
             // label17
             // 
@@ -489,7 +489,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(142, 20);
             this.textBox2.TabIndex = 9;
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressHandler);
             // 
             // label18
             // 
@@ -507,7 +507,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(142, 20);
             this.textBox1.TabIndex = 7;
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressHandler);
             // 
             // label19
             // 
@@ -713,7 +713,7 @@
             this.companiaToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.companiaToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.companiaToolStripMenuItem.Text = "Compañía";
-            this.companiaToolStripMenuItem.Click += new System.EventHandler(this.companiaToolStripMenuItem_Click);
+            this.companiaToolStripMenuItem.Click += new System.EventHandler(this.CompañíaToolStripMenuItem_Click);
             // 
             // historiaToolStripMenuItem
             // 
@@ -722,7 +722,7 @@
             this.historiaToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.historiaToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.historiaToolStripMenuItem.Text = "Ronald";
-            this.historiaToolStripMenuItem.Click += new System.EventHandler(this.historiaToolStripMenuItem_Click);
+            this.historiaToolStripMenuItem.Click += new System.EventHandler(this.HistoriaToolStripMenuItem_Click);
             // 
             // mcDíaFelizPorLosNiñosToolStripMenuItem
             // 
@@ -731,7 +731,7 @@
             this.mcDíaFelizPorLosNiñosToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.mcDíaFelizPorLosNiñosToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.mcDíaFelizPorLosNiñosToolStripMenuItem.Text = "McDía Feliz por los Niños";
-            this.mcDíaFelizPorLosNiñosToolStripMenuItem.Click += new System.EventHandler(this.mcDíaFelizPorLosNiñosToolStripMenuItem_Click);
+            this.mcDíaFelizPorLosNiñosToolStripMenuItem.Click += new System.EventHandler(this.McDíaFelizPorLosNiñosToolStripMenuItem_Click);
             // 
             // rSEToolStripMenuItem
             // 
@@ -740,7 +740,7 @@
             this.rSEToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.rSEToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.rSEToolStripMenuItem.Text = "Calendario";
-            this.rSEToolStripMenuItem.Click += new System.EventHandler(this.rSEToolStripMenuItem_Click);
+            this.rSEToolStripMenuItem.Click += new System.EventHandler(this.RSEToolStripMenuItem_Click);
             // 
             // historiaDeLaCajitaFelizToolStripMenuItem
             // 
@@ -749,7 +749,7 @@
             this.historiaDeLaCajitaFelizToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.historiaDeLaCajitaFelizToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.historiaDeLaCajitaFelizToolStripMenuItem.Text = "Ronald de la Cajita Feliz";
-            this.historiaDeLaCajitaFelizToolStripMenuItem.Click += new System.EventHandler(this.historiaDeLaCajitaFelizToolStripMenuItem_Click);
+            this.historiaDeLaCajitaFelizToolStripMenuItem.Click += new System.EventHandler(this.HistoriaDeLaCajitaFelizToolStripMenuItem_Click);
             // 
             // programaEscolarToolStripMenuItem
             // 
@@ -758,7 +758,7 @@
             this.programaEscolarToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.programaEscolarToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.programaEscolarToolStripMenuItem.Text = "Programa Escolar";
-            this.programaEscolarToolStripMenuItem.Click += new System.EventHandler(this.programaEscolarToolStripMenuItem_Click);
+            this.programaEscolarToolStripMenuItem.Click += new System.EventHandler(this.ProgramaEscolarToolStripMenuItem_Click);
             // 
             // trabajarEnMcDonaldsToolStripMenuItem
             // 
@@ -767,7 +767,7 @@
             this.trabajarEnMcDonaldsToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.trabajarEnMcDonaldsToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.trabajarEnMcDonaldsToolStripMenuItem.Text = "Trabajar en McDonald’s";
-            this.trabajarEnMcDonaldsToolStripMenuItem.Click += new System.EventHandler(this.trabajarEnMcDonaldsToolStripMenuItem_Click);
+            this.trabajarEnMcDonaldsToolStripMenuItem.Click += new System.EventHandler(this.TrabajarEnMcDonaldsToolStripMenuItem_Click);
             // 
             // líneaDeÉticaToolStripMenuItem
             // 
@@ -776,7 +776,7 @@
             this.líneaDeÉticaToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.líneaDeÉticaToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.líneaDeÉticaToolStripMenuItem.Text = "Línea de Ética";
-            this.líneaDeÉticaToolStripMenuItem.Click += new System.EventHandler(this.líneaDeÉticaToolStripMenuItem_Click);
+            this.líneaDeÉticaToolStripMenuItem.Click += new System.EventHandler(this.LíneaDeÉticaToolStripMenuItem_Click);
             // 
             // libro40AñosToolStripMenuItem
             // 
@@ -786,7 +786,7 @@
             this.libro40AñosToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.libro40AñosToolStripMenuItem.Size = new System.Drawing.Size(147, 39);
             this.libro40AñosToolStripMenuItem.Text = "Libro 40 años";
-            this.libro40AñosToolStripMenuItem.Click += new System.EventHandler(this.libro40AñosToolStripMenuItem_Click);
+            this.libro40AñosToolStripMenuItem.Click += new System.EventHandler(this.Libro40AñosToolStripMenuItem_Click);
             // 
             // toolStripContainer1
             // 
@@ -813,7 +813,7 @@
             this.Controls.Add(this.toolStripContainer1);
             this.Controls.Add(this.tabControlCompania);
             this.MainMenuStrip = this.menuLateral;
-            this.Name = "Compañía";
+            this.Name = "Compania";
             this.Text = "Celebraciones";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControlCompania.ResumeLayout(false);
